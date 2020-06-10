@@ -30,7 +30,7 @@ public class BioServer {
                     public void run() {
                         BufferedReader reader = null;
                     }
-                })
+                });
             }
         } catch (IOException e) {
             e.printStackTrace();
