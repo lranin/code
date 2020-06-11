@@ -2,8 +2,8 @@ package ioc.version_1;
 
 /**
  * @author Ranin
- * @version Id: SingletonClass.java, v 0.1 2020/6/10 17:45 Ranin Exp $$
- * 单例类
+ * @version Id: SingletonClass_2.java, v 0.1 2020/6/10 17:45 Ranin Exp $$
+ * 单例类创建对象
  */
 public class SingletonClass {
     private String words = "the class invoke this :";
@@ -17,7 +17,7 @@ public class SingletonClass {
         return singletonClass;
     }
 
-    public void speak(String something) {
-        System.out.println(words + something);
+    public void speak(String invoker) {
+        System.out.println(words + invoker);
     }
 }
