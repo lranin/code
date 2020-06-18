@@ -11,7 +11,15 @@ public class SingletonClass_2 {
     private static SingletonClass_2 singletonClass_2 = new SingletonClass_2();
 
     private SingletonClass_2() {
+        System.out.println("singleton no para private constructor");
+    }
 
+    private SingletonClass_2(String string) {
+        System.out.println("private constructor :" + string);
+    }
+
+    private SingletonClass_2(String string, int i, boolean j) {
+        System.out.println("private constructor :" + string);
     }
 
     public static SingletonClass_2 getInstance() {

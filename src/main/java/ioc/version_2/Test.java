@@ -11,9 +11,9 @@ import ioc.version_1.ClassC;
 public class Test {
 
     public static void main(String[] args) {
-        ClassA a = new ClassA();
-        ClassB b = new ClassB();
-        ClassC c = new ClassC();
+        ClassB_2 b = new ClassB_2();
+        ClassA_2 a = new ClassA_2();
+        ClassC_2 c = new ClassC_2();
 
         a.speak();
         b.speak();

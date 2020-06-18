@@ -7,9 +7,9 @@ import ioc.version_1.SingletonClass;
  * @version Id: ClassA_0.java, v 0.1 2020/6/10 17:55 Ranin Exp $$
  */
 public class ClassC_2 {
-    private SingletonClass_2 singletonClass_2 = SingletonClass_2.getInstance();
+    private NormalClass_2 normalClass_2 =(NormalClass_2) BeanFactory.getSingletonByClassName(NormalClass_2.class.getName());
 
     public void speak(){
-        singletonClass_2.speak(ioc.version_1.ClassC.class.getName());
+        normalClass_2.speak(ioc.version_2.ClassC_2.class.getName());
     }
 }
