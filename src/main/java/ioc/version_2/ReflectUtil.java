@@ -22,7 +22,7 @@ public class ReflectUtil {
                     o = constructors[i].newInstance();
                 }
             }
-            System.out.println(o);
+            System.out.println("从反射创建:"+o);
         } catch (InstantiationException e) {
             e.printStackTrace();
         } catch (IllegalAccessException e) {

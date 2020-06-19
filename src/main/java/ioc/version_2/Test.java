@@ -15,8 +15,8 @@ public class Test {
         ClassA_2 a = new ClassA_2();
         ClassC_2 c = new ClassC_2();
 
-        a.speak();
-        b.speak();
-        c.speak();
+        a.speak("123");
+        b.speak("234");
+        c.speak("345");
     }
 }

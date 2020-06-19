@@ -9,7 +9,10 @@ package ioc.version_2;
 public class ClassB_2 {
     private SingletonClass_2 singletonClass =(SingletonClass_2) BeanFactory.getSingletonByClassName(SingletonClass_2.class.getName());
 
-    public void speak(){
-        singletonClass.speak(ioc.version_2.ClassB_2.class.getName());
+    public void speak(String word){
+        if (word == null) {
+            singletonClass.speak(ClassB_2.class.getName());
+        }
+        singletonClass.speak("classB调用" + word);
     }
 }

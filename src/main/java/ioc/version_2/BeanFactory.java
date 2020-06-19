@@ -18,9 +18,7 @@ public class BeanFactory {
             o = SingletonClass_2.getInstance();
         }
         if (beanName.equals("NormalClass_2")) {
-            synchronized (lock) {
-                o = new NormalClass_2();
-            }
+            o = new NormalClass_2();
         }
         return o;
     }
@@ -29,11 +27,19 @@ public class BeanFactory {
         Object o;
         o = beanMap.get(className);
         if (o != null) {
+            System.out.println("get object from cache: " + className);
             return o;
         }
         try {
-            Class c = Class.forName(className);
-            o = ReflectUtil.getInstanceByNoParaConstructor(c);
+            synchronized (lock) {
+                o = beanMap.get(className);
+                if (o != null) {
+                    return o;
+                }
+                Class c = Class.forName(className);
+                o = ReflectUtil.getInstanceByNoParaConstructor(c);
+                beanMap.put(className, o);
+            }
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }

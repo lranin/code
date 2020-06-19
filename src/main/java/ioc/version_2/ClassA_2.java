@@ -8,8 +8,11 @@ public class ClassA_2 {
     private SingletonClass_2 singletonClass = (SingletonClass_2) BeanFactory.getBeanByName("SingletonClass_2");
 
 
-    public void speak() {
-        singletonClass.speak(ClassA_2.class.getName());
+    public void speak(String word) {
+        if (word == null) {
+            singletonClass.speak(ClassA_2.class.getName());
+        }
+        singletonClass.speak("classA调用" + word);
 
     }
 }
