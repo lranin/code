@@ -1,19 +1,32 @@
 package ioc.annotation_version.instanceClass;
 
-import ioc.beanFactory_version.BeanFactory;
-import ioc.beanFactory_version.NormalClass_2;
+import ioc.annotation_version.annotation.Autowire;
+import ioc.annotation_version.annotation.Prototype;
+import ioc.annotation_version.pojo.PrototypeClass;
+import ioc.annotation_version.pojo.SingletonClass;
 
 /**
  * @author Ranin
  * @version Id: ClassD.java, v 0.1 2020/6/19 16:53 Ranin Exp $$
  */
+@Prototype
 public class ClassD {
-    private NormalClass_2 normalClass = (NormalClass_2) BeanFactory.getBeanByName(NormalClass_2.class.getName());
+    @Autowire
+    private SingletonClass singletonClass;
+    @Autowire
+    private PrototypeClass prototypeClass;
 
-    public void normalSpeak(String word) {
+    public void singletonSpeak(String word) {
         if (word == null) {
-            normalClass.speak(ClassC.class.getName());
+            singletonClass.speak(ClassC.class.getName());
         }
-        normalClass.speak("classC调用" + word);
+        singletonClass.speak("classC调用" + word);
+    }
+
+    public void prototypeSpeak(String word) {
+        if (word == null) {
+            prototypeClass.speak(ClassC.class.getName());
+        }
+        prototypeClass.speak("classC调用" + word);
     }
 }

@@ -7,7 +7,7 @@ package ioc.beanFactory_version;
  */
 public class SingletonClass_2 {
     //关注这个string放在局部变量和全局变量再虚拟机中的区别
-    private String words = "Singleton Class----------the method invoke by :";
+    private String words = "SingletonClass Class----------the method invoke by :";
     private static SingletonClass_2 singletonClass_2 = new SingletonClass_2();
 
     private SingletonClass_2() {

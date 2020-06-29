@@ -1,4 +1,4 @@
-package ioc.sigletion_version;
+package ioc.singleton_version;
 
 /**
  * @author Ranin

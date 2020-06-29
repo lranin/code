@@ -5,7 +5,10 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-@Target(value = {ElementType.TYPE,ElementType.FIELD})
+/**
+ * 放置在字段上,标明该字段由容器托管
+ */
+@Target(value = {ElementType.FIELD})
 @Retention(value = RetentionPolicy.RUNTIME)
 public @interface Autowire {
 }
