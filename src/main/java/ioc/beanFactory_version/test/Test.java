@@ -1,8 +1,8 @@
-package ioc.version_2;
+package ioc.beanFactory_version.test;
 
-import ioc.version_1.ClassA;
-import ioc.version_1.ClassB;
-import ioc.version_1.ClassC;
+import ioc.beanFactory_version.instanceClass.ClassA_2;
+import ioc.beanFactory_version.instanceClass.ClassB_2;
+import ioc.beanFactory_version.instanceClass.ClassC_2;
 
 /**
  * @author Ranin

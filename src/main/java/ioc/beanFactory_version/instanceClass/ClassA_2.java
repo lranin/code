@@ -1,4 +1,7 @@
-package ioc.version_2;
+package ioc.beanFactory_version.instanceClass;
+
+import ioc.beanFactory_version.BeanFactory;
+import ioc.beanFactory_version.SingletonClass_2;
 
 /**
  * @author Ranin

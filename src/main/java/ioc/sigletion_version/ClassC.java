@@ -1,13 +1,13 @@
-package ioc.version_1;
+package ioc.sigletion_version;
 
 /**
  * @author Ranin
  * @version Id: ClassA_0.java, v 0.1 2020/6/10 17:55 Ranin Exp $$
  */
-public class ClassB {
+public class ClassC {
     private SingletonClass singletonClass = SingletonClass.getInstance();
 
     public void speak(){
-        singletonClass.speak(ClassB.class.getName());
+        singletonClass.speak(ClassC.class.getName());
     }
 }

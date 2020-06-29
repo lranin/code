@@ -1,4 +1,4 @@
-package ioc.version_2;
+package ioc.beanFactory_version;
 
 import java.util.HashMap;
 import java.util.Map;

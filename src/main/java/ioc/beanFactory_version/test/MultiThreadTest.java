@@ -1,4 +1,6 @@
-package ioc.version_2;
+package ioc.beanFactory_version.test;
+
+import ioc.beanFactory_version.instanceClass.ClassD_2;
 
 /**
  * @author Ranin
@@ -22,9 +24,9 @@ public class MultiThreadTest {
     }
 
     private static void test(String i) {
-//        ClassB_2 b = new ClassB_2();
-//        ClassA_2 a = new ClassA_2();
-//        ClassC_2 c = new ClassC_2();
+//        ClassB b = new ClassB();
+//        ClassA a = new ClassA();
+//        ClassC c = new ClassC();
         ClassD_2 d_2 = new ClassD_2();
 //        a.speak(i);
 //        b.speak(i);
