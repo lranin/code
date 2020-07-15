@@ -12,10 +12,10 @@ import java.util.concurrent.TimeUnit;
 @Slf4j
 public class ConcurrencyTry {
     private static void enjoyMusic() {
-//        while (true) {
+        while (true) {
         log.info("enjoy music");
         sleep(1);
-//        }
+        }
     }
 
     private static void readBook() {
@@ -39,7 +39,7 @@ public class ConcurrencyTry {
     public static void main(String[] args) {
         Thread thread = new Thread(ConcurrencyTry::enjoyMusic, "音乐线程");
         thread.start();
-        thread.start();
+//        thread.start();
         new Thread(ConcurrencyTry::readBook).start();
 //        readBook();
 //        sleep(20);
