@@ -18,7 +18,7 @@ public class JoinMethod {
         threads.forEach(thread -> {
             try {
                 System.out.println( Thread.currentThread());
-                //wait()方法锁实施的对象
+                //wait()方法-> 锁主体(被竞争的对象): thread,竞争线程: Thread.currentThread()
                 thread.join();
             } catch (InterruptedException e) {
                 e.printStackTrace();

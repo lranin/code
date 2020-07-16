@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="386d3e64-3a54-45a7-a613-8813051fc106" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/wangwenjun/chapter3/InterruptMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/wangwenjun/chapter3/JoinMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/wangwenjun/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/wangwenjun/VolatileKeyWord.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/wangwenjun/chapter1/ConcurrencyTry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thread/wangwenjun/chapter1/ConcurrencyTry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thread/wangwenjun/chapter3/JoinMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thread/wangwenjun/chapter3/JoinMethod.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,7 +43,7 @@
         <counts>
           <entry key="class" value="28" />
           <entry key="gitignore" value="2" />
-          <entry key="java" value="219" />
+          <entry key="java" value="221" />
           <entry key="md" value="14" />
           <entry key="properties" value="2" />
           <entry key="xml" value="4" />
@@ -53,7 +53,7 @@
         <counts>
           <entry key="CLASS" value="28" />
           <entry key="Git file" value="2" />
-          <entry key="JAVA" value="219" />
+          <entry key="JAVA" value="221" />
           <entry key="Markdown" value="14" />
           <entry key="Properties" value="2" />
           <entry key="XML" value="4" />
@@ -64,10 +64,10 @@
           <entry key="class" value="1" />
           <entry key="dummy" value="76" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="5681" />
+          <entry key="java" value="6061" />
           <entry key="md" value="360" />
           <entry key="properties" value="14" />
-          <entry key="txt" value="55" />
+          <entry key="txt" value="81" />
           <entry key="xml" value="12" />
         </counts>
       </usages-collector>
@@ -75,9 +75,9 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="Git file" value="1" />
-          <entry key="JAVA" value="5684" />
+          <entry key="JAVA" value="6064" />
           <entry key="Markdown" value="357" />
-          <entry key="PLAIN_TEXT" value="131" />
+          <entry key="PLAIN_TEXT" value="157" />
           <entry key="Properties" value="14" />
           <entry key="XML" value="12" />
         </counts>
@@ -102,8 +102,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/thread/wangwenjun/chapter3/JoinMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+            <state relative-caret-position="58">
+              <caret line="20" selection-start-line="20" selection-end-line="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/thread/wangwenjun/VolatileKeyWord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#295#296#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/thread/wangwenjun/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="14" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,15 +142,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="631">
               <caret line="381" column="16" selection-start-line="381" selection-start-column="16" selection-end-line="381" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.jar!/java/util/stream/IntStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="116" column="18" selection-start-line="116" selection-start-column="18" selection-end-line="116" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -144,11 +161,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.jar!/java/lang/Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="734">
-              <caret line="1263" column="5" lean-forward="true" selection-start-line="1240" selection-start-column="4" selection-end-line="1263" selection-end-column="5" />
+            <state relative-caret-position="153">
+              <caret line="1251" selection-start-line="1251" selection-end-line="1251" />
               <folding>
                 <element signature="e#15020#15021#0" expanded="true" />
                 <element signature="e#15084#15085#0" expanded="true" />
@@ -166,17 +183,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.jar!/java/lang/Object.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
+            <state relative-caret-position="122">
               <caret line="381" column="29" selection-start-line="381" selection-start-column="29" selection-end-line="381" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/sun/misc/VM.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="191" column="24" selection-start-line="191" selection-start-column="24" selection-end-line="191" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -240,8 +248,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ioc/version_2/BeanFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ioc/version_2/ClassA_2.java" />
         <option value="$PROJECT_DIR$/src/main/java/ioc/version_2/ClassB_2.java" />
         <option value="$PROJECT_DIR$/src/main/java/ioc/version_2/NormalClass_2.java" />
         <option value="$PROJECT_DIR$/src/main/java/ioc/version_2/SingletonClass_2.java" />
@@ -291,6 +297,8 @@
         <option value="$PROJECT_DIR$/src/main/java/thread/wangwenjun/chapter1/ConcurrencyTry.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/wangwenjun/chapter3/InterruptMethod.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/wangwenjun/chapter3/JoinMethod.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/wangwenjun/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/wangwenjun/VolatileKeyWord.java" />
       </list>
     </option>
   </component>
@@ -398,7 +406,7 @@
     <property name="LombokPluginIS_VAL_Enabled" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594808549034" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594894448346" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-framework/build.gradle" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -433,7 +441,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JoinMethod">
+  <component name="RunManager" selected="Application.VolatileKeyWord">
     <configuration name="ConcurrencyTry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.wangwenjun.chapter1.ConcurrencyTry" />
       <module name="code" />
@@ -473,19 +481,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Model" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classLoader.Model" />
-      <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="classLoader.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TemplateMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.wangwenjun.chapter1.TemplateMethod" />
       <module name="code" />
@@ -512,20 +507,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VolatileKeyWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.wangwenjun.VolatileKeyWord" />
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.wangwenjun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Model" />
       <item itemvalue="Application.ConcurrencyTry" />
       <item itemvalue="Application.TemplateMethod" />
       <item itemvalue="Application.InterruptMethod" />
       <item itemvalue="Application.JoinMethod" />
+      <item itemvalue="Application.VolatileKeyWord" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VolatileKeyWord" />
         <item itemvalue="Application.JoinMethod" />
         <item itemvalue="Application.InterruptMethod" />
         <item itemvalue="Application.ConcurrencyTry" />
         <item itemvalue="Application.TemplateMethod" />
-        <item itemvalue="Application.Model" />
       </list>
     </recent_temporary>
   </component>
@@ -555,7 +563,7 @@
       <workItem from="1593393969288" duration="19606000" />
       <workItem from="1593481488264" duration="22926000" />
       <workItem from="1594108285969" duration="2241000" />
-      <workItem from="1594629542440" duration="23091000" />
+      <workItem from="1594629542440" duration="28585000" />
     </task>
     <task id="LOCAL-00001" summary="ioc version_1 init">
       <created>1591784066222</created>
@@ -613,27 +621,33 @@
       <option name="project" value="LOCAL" />
       <updated>1594721900261</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="interrupt and join method">
+      <created>1594808629160</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1594808629160</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127523000" />
+    <option name="totallyTimeSpent" value="133017000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49889624" weight="0.28983957" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49889624" visible="true" weight="0.28983957" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Structure" order="6" sideWeight="0.50110376" visible="true" weight="0.28235295" />
+      <window_info id="Structure" order="6" sideWeight="0.50110376" weight="0.28235295" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32838982" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.5582627" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5201271" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.5201271" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -671,7 +685,8 @@
     <MESSAGE value="注解实现ioc" />
     <MESSAGE value="readme更新" />
     <MESSAGE value="线程" />
-    <option name="LAST_COMMIT_MESSAGE" value="线程" />
+    <MESSAGE value="interrupt and join method" />
+    <option name="LAST_COMMIT_MESSAGE" value="interrupt and join method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -695,22 +710,33 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_201/src.jar!/java/lang/Thread.java</url>
-          <line>1250</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/thread/wangwenjun/chapter3/JoinMethod.java</url>
-          <line>46</line>
+          <line>48</line>
           <properties />
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_201/src.jar!/java/lang/Thread.java</url>
+          <line>1251</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/thread/wangwenjun/VolatileKeyWord.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>Thread.currentThread()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>var1.getClass()</expression-string>
         <language-id>JAVA</language-id>
@@ -751,31 +777,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>con.isVarArgs()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar!/lombok/extern/log4j/Log4j.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ioc/beanFactory_version/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="76">
-            <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ioc/annotation_version/instanceClass/ClassB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -1115,13 +1119,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.jar!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="381" column="29" selection-start-line="381" selection-start-column="29" selection-end-line="381" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/thread/wangwenjun/chapter3/InterruptMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -1180,20 +1177,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/wangwenjun/chapter3/JoinMethod.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.jar!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="122">
+          <caret line="381" column="29" selection-start-line="381" selection-start-column="29" selection-end-line="381" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.jar!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="734">
-          <caret line="1263" column="5" lean-forward="true" selection-start-line="1240" selection-start-column="4" selection-end-line="1263" selection-end-column="5" />
+        <state relative-caret-position="153">
+          <caret line="1251" selection-start-line="1251" selection-end-line="1251" />
           <folding>
             <element signature="e#15020#15021#0" expanded="true" />
             <element signature="e#15084#15085#0" expanded="true" />
@@ -1203,6 +1197,38 @@
             <element signature="e#36767#36768#0" expanded="true" />
             <element signature="e#37304#37305#0" expanded="true" />
             <element signature="e#37347#37348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/wangwenjun/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="14" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/wangwenjun/chapter3/JoinMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="20" selection-start-line="20" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/wangwenjun/VolatileKeyWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
           </folding>
         </state>
       </provider>
