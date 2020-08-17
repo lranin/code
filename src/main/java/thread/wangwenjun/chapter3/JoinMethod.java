@@ -8,6 +8,7 @@ import java.util.stream.IntStream;
 /**
  * @author Ranin
  * @version Id: JoinMethod.java, v 0.1 2020/7/15 17:27 Ranin Exp $$
+ * join方法
  */
 public class JoinMethod {
     //④ main 线程 循环 输出

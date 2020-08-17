@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * @author Ranin
  * @version Id: InterruptMethod.java, v 0.1 2020/7/15 16:01 Ranin Exp $$
+ * Interrupt异常
  */
 public class InterruptMethod {
     public static void main(String[] args) throws InterruptedException {
